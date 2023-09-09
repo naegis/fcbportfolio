@@ -1,0 +1,68 @@
+index.css
+
+
+* {
+	font-family: Roboto, sans-serif;
+
+}
+h1, p {
+	font-family: Montserrat, sans-serif;
+
+}
+#profile {
+	height: 250px;
+	width: 250px;
+
+	border-radius: 125px;
+
+}
+body {
+	/*background: radial-gradient(ellipse at bottom, #000000 0%, #1a160b 100%);
+	background-image: linear-gradient(to bottom, #000000, #462628, #89493b, #c77643, #f8b043);
+	background-attachment: fixed;
+	background-size: cover;*/
+	
+background: radial-gradient(circle, transparent 25%, #000000  26%),linear-gradient(45deg, transparent 46%, #3b2700 47%, #3b2700 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #3b2700 47%, #3b2700 52%, transparent 53%);
+        background-size: 3em 3em;
+        background-color: #000000;
+        opacity: 1
+}
+
+h1 {
+   text-align: center;
+   color: #fea450;
+   size: 1000px;
+}
+
+
+p {
+    text-align: center;
+    color: white;
+}
+.btn {
+
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    border: 2px solid #fea450;
+    background: #f8b0438c;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
